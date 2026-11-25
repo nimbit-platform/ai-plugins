@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nimbit": {
+      "type": "http",
+      "url": "https://mcp.nimbit.ai/mcp"
+    }
+  }
+}

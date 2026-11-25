@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nimbit",
+  "owner": {
+    "name": "Nimbit GmbH"
+  },
+  "metadata": {
+    "description": "Official Nimbit AI plugins, skills, and MCP connectors for Claude Code and other AI assistants."
+  },
+  "plugins": [
+    {
+      "name": "nimbit",
+      "source": "./plugins/nimbit",
+      "description": "Operate your Nimbit IoT workspace: plant health, incident investigation, shift handover, energy analysis, device onboarding, and rule drafting through the Nimbit MCP server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nimbit GmbH",
+        "url": "https://nimbit.ai"
+      },
+      "homepage": "https://nimbit.ai",
+      "repository": "https://github.com/nimbit-platform/ai-plugins",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["nimbit", "iot", "mcp", "operations", "incidents", "telemetry"]
+    }
+  ]
+}

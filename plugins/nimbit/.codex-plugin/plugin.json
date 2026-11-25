@@ -1,0 +1,15 @@
+{
+  "name": "nimbit",
+  "version": "1.0.0",
+  "description": "Operate your Nimbit IoT workspace from Codex: plant health, incident investigation, shift handover, energy analysis, device onboarding, and rule drafting through the Nimbit MCP server.",
+  "author": {
+    "name": "Nimbit GmbH",
+    "url": "https://nimbit.ai"
+  },
+  "homepage": "https://nimbit.ai",
+  "repository": "https://github.com/nimbit-platform/ai-plugins",
+  "license": "MIT",
+  "keywords": ["nimbit", "iot", "mcp", "operations", "incidents", "telemetry"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

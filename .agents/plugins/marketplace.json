@@ -1,0 +1,23 @@
+{
+  "name": "nimbit",
+  "interface": {
+    "displayName": "Nimbit AI Plugins"
+  },
+  "metadata": {
+    "description": "Official Nimbit AI plugins, skills, and MCP connectors."
+  },
+  "plugins": [
+    {
+      "name": "nimbit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nimbit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Operations"
+    }
+  ]
+}
